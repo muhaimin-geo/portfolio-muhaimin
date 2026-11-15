@@ -1,21 +1,20 @@
-# Portofolio Nama Anda
+# Portofolio Muhaimin
 
-Template situs portofolio statis berbahasa Indonesia. Tidak memerlukan framework, proses build, atau dependensi.
+Website portofolio GIS Analyst dan Surveyor berbahasa Indonesia. Situs statis ini tidak memerlukan framework, proses build, atau dependensi.
 
 ## Menjalankan secara lokal
 
 Buka `index.html` di browser.
 
-## Mengganti placeholder
+## Memperbarui konten
 
-- Perbarui nama, profesi, bio, lokasi, keahlian, dan proyek di `index.html`.
-- Ganti `emailanda@example.com` dengan alamat email yang ingin ditampilkan.
-- Ganti tautan sosial `#contact` dengan URL profil Anda.
-- Ganti inisial `NA` dan area foto pada bagian hero dengan foto profil Anda.
-- Sesuaikan warna dan tata letak di `styles.css`.
+- Profil, pengalaman, keahlian, dan ringkasan proyek ada di `index.html`.
+- Proyek Tambora menautkan ke WebGIS; kartu proyek dan tombol portofolio lengkap menautkan ke Canva.
+- Sesuaikan warna, ilustrasi, dan tata letak di `styles.css`.
+- Interaksi menu navigasi dan tahun footer ada di `script.js`.
 
 ## Menerbitkan dengan GitHub Pages
 
-Di repository GitHub, buka **Settings → Pages**, pilih **Deploy from a branch**, lalu pilih branch `main` dan folder `/(root)`. Setelah deployment selesai, situs tersedia di:
+Repository diterbitkan melalui GitHub Pages dari branch `main` dan folder `/(root)`. Situs tersedia di:
 
 `https://muhaimin-geo.github.io/portfolio-muhaimin/`
