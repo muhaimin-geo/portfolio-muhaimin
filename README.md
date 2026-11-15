@@ -10,6 +10,7 @@ Buka `index.html` di browser.
 
 - Profil, pengalaman, keahlian, dan ringkasan proyek ada di `index.html`.
 - Proyek Tambora menautkan ke WebGIS; kartu proyek dan tombol portofolio lengkap menautkan ke Canva.
+- Ikon tab browser ada di `favicon.svg` dan menggunakan inisial yang senada dengan heading.
 - Sesuaikan warna, ilustrasi, dan tata letak di `styles.css`.
 - Interaksi menu navigasi dan tahun footer ada di `script.js`.
 
