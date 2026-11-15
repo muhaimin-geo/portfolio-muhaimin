@@ -72,15 +72,28 @@ button:focus-visible {
 }
 
 .wordmark-mark {
-  color: var(--ink);
-  font-size: 22px;
-  font-weight: 800;
-  letter-spacing: -0.09em;
-  line-height: 1;
+  width: 30px;
+  height: 30px;
+  flex: 0 0 auto;
+  fill: none;
+  stroke: var(--ink);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.6;
 }
 
-.wordmark-mark span {
-  color: var(--accent);
+.globe-outline {
+  stroke-width: 1.8;
+}
+
+.globe-grid {
+  opacity: 0.78;
+}
+
+.globe-point {
+  fill: var(--accent);
+  stroke: var(--paper);
+  stroke-width: 1;
 }
 
 .navigation {
@@ -1001,7 +1014,8 @@ h3 {
 }
 
 .site-footer .wordmark-mark {
-  font-size: 19px;
+  width: 26px;
+  height: 26px;
 }
 
 .site-footer p {
